@@ -1,6 +1,3 @@
-console.log("JS Version 999");
-alert("JS Version 999");
-
 const dateInput =
     document.getElementById("tourDate");
 
