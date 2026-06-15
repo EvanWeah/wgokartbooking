@@ -73,6 +73,18 @@ const route =
 
 ).value;
 
+const selectedDate = new Date(date);
+
+if (
+    selectedDate < today ||
+    selectedDate > maxDate
+) {
+    alert(
+        "Please select a date within the next 6 months."
+    );
+    return;
+}
+
 emailjs.send(
 
     "service_rq3a2lp",

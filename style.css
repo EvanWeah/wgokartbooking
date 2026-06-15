@@ -11,8 +11,6 @@ body {
 
     background-position: center top;
 
-    background-attachment: scroll;
-
     min-height: 100vh;
 
 }
@@ -211,7 +209,7 @@ body {
 
     body {
 
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
         background-attachment: scroll;
