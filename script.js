@@ -1,3 +1,5 @@
+alert("JS Version 2");
+
 const dateInput =
     document.getElementById("tourDate");
 
