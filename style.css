@@ -43,6 +43,8 @@ body {
 
     display:block;
 
+    width:100%;
+
     color:white;
 
     font-weight:600;
@@ -52,6 +54,7 @@ body {
 }
 
 .booking form {
+    width: 100%;
     max-width: 500px;
     margin: auto;
 
@@ -168,14 +171,16 @@ body {
     }
 
     .booking label {
-        font-size: 22px;
-        margin-bottom: 12px;
+        font-size: 16px;
+        margin-bottom: 4px;
     }
 
     .booking input,
     .booking select{
 
-    padding:10px 15px;
+    height:22px;
+
+    padding:8px 12px;
 
     margin-bottom:5px;
 
