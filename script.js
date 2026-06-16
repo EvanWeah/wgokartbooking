@@ -73,6 +73,13 @@ document
 
 ).value;
 
+alert("BEFORE STRIPE");
+
+window.location.href =
+"https://buy.stripe.com/5kQ4gy9vy8o10BN7DNeZ20n";
+
+return;
+
 const selectedDate = new Date(date);
 
 if (
