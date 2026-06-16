@@ -1,3 +1,5 @@
+alert("VERSION 999");
+
 const dateInput =
     document.getElementById("tourDate");
 
